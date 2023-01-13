@@ -13,11 +13,11 @@ export default function Header() {
           height={36}
         />
         <h1 className="sm:text-5xl text-3xl font-bold ml-2 tracking-tight">
-          restorePhotos.io
+          ai.VuTN.Net
         </h1>
       </Link>
       <a
-        href="https://vercel.com/templates/next.js/ai-photo-restorer"
+        href="https://ai.vutn.net"
         target="_blank"
         rel="noreferrer"
       >
