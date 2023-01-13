@@ -11,32 +11,31 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Face Photo Restorer</title>
+        <title>Phục chế ảnh khuôn mặt bằng AI</title>
       </Head>
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
         <a
-          href="https://twitter.com/nutlope/status/1613654741216813056"
+          href="#"
           target="_blank"
           rel="noreferrer"
           className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
         >
-          Used by over <span className="font-semibold">30,000</span> happy
-          customers
+          Được tin dùng bởi hơn <span className="font-semibold">20,000</span> khách hàng
         </a>
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
-          Restoring old photos{" "}
+          Phục chế ảnh cũ{" "}
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
-            <span className="relative">using AI</span>
+            <span className="relative">bằng AI</span>
           </span>{" "}
-          for everyone.
+          miễn phí.
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-          Have old and blurry face photos? Let our AI restore them so those
-          memories can live on. 100% free – restore your photos today.
+          Bạn có những tấm ảnh cũ? Hãy thử phục chế bằng trí thông minh nhân tạo.
+          Miễn phí 100%. Thử ngay bây giờ.
         </p>
         <Link
           className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
@@ -48,7 +47,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-2 sm:flex-row flex-col">
               <div>
-                <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">Ảnh gốc</h2>
                 <Image
                   alt="Original photo of my bro"
                   src="/michael.jpg"
@@ -58,7 +57,7 @@ const Home: NextPage = () => {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Restored Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">Ảnh phục chế</h2>
                 <Image
                   alt="Restored photo of my bro"
                   width={400}
