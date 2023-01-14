@@ -7,13 +7,13 @@ export default function Header() {
       <Link href="/" className="flex space-x-2">
         <Image
           alt="header text"
-          src="/imageIcon.png"
+          src="/vision.png"
           className="sm:w-14 sm:h-14 w-9 h-9"
           width={36}
           height={36}
         />
         <h1 className="sm:text-5xl text-3xl font-bold ml-2 tracking-tight">
-          ai.VuTN.Net
+          ai.vutn.net
         </h1>
       </Link>
       <a
@@ -22,8 +22,8 @@ export default function Header() {
         rel="noreferrer"
       >
         <Image
-          alt="Vercel Icon"
-          src="/vercelLogo.png"
+          alt="VUTN.net Icon"
+          src="/vutn.net01.png"
           className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
           width={32}
           height={28}
