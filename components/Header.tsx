@@ -9,7 +9,6 @@ export default function Header() {
           alt="header text"
           src="/vision.png"
           className="sm:w-14 sm:h-14 w-9 h-9"
-          width={36}
           height={36}
         />
         <h1 className="sm:text-5xl text-3xl font-bold ml-2 tracking-tight">
@@ -25,8 +24,7 @@ export default function Header() {
           alt="VUTN.net Icon"
           src="/vutn.net01.png"
           className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
-          width={32}
-          height={28}
+          height={36}
         />
       </a>
     </header>
