@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
         and {" "}
         <a
-          href="https://vercel.com/"
+          href="https://replicate.com/"
           target="_blank"
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
