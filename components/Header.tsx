@@ -7,26 +7,24 @@ export default function Header() {
       <Link href="/" className="flex space-x-2">
         <Image
           alt="header text"
-          src="/imageIcon.png"
-          className="sm:w-14 sm:h-14 w-9 h-9"
-          width={36}
+          src="/vision.png"
+          className="sm:h-14 h-9"
           height={36}
         />
         <h1 className="sm:text-5xl text-3xl font-bold ml-2 tracking-tight">
-          restorePhotos.io
+          ai.vutn.net
         </h1>
       </Link>
       <a
-        href="https://vercel.com/templates/next.js/ai-photo-restorer"
+        href="https://ai.vutn.net"
         target="_blank"
         rel="noreferrer"
       >
         <Image
-          alt="Vercel Icon"
-          src="/vercelLogo.png"
-          className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
-          width={32}
-          height={28}
+          alt="VUTN.net Icon"
+          src="/vutn.net01.png"
+          className="sm:h-[34px] h-[36px]"
+          height={36}
         />
       </a>
     </header>

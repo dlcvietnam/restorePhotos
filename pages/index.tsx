@@ -9,30 +9,31 @@ import { Testimonials } from "../components/Testimonials";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
-      <Head>
-        <title>Face Photo Restorer</title>
-      </Head>
+      <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
+        <Head>
+          <title>Face Photos Restore by AI - Free 100%</title>
+        </Head>
 
-      <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
-        <a
-          href="https://twitter.com/nutlope/status/1626074563481051136"
-          target="_blank"
-          rel="noreferrer"
-          className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
-        >
-          Used by over <span className="font-semibold">200,000</span> happy
-          users
-        </a>
-        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
-          Restoring old photos{" "}
-          <span className="relative whitespace-nowrap text-[#3290EE]">
+        <Header />
+        <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
+          <a
+              href="https://ai.vutn.net"
+              target="_blank"
+              rel="noreferrer"
+              className="border rounded-2xl py-1 px-4 text-slate-500 text-sm mb-5 hover:scale-105 transition duration-300 ease-in-out"
+          >
+            Used by over <span className="font-semibold">30,000</span> happy
+            customers
+          </a>
+          <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
+            Restoring old photos{" "}
+            <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
             <span className="relative">using AI</span>
           </span>{" "}
-          for everyone.
-        </h1>
+            for everyone.
+          </h1>
+
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
           Have old and blurry face photos? Let our AI restore them so those
@@ -80,11 +81,9 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </main>
-      <Testimonials />
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
   );
 };
 
